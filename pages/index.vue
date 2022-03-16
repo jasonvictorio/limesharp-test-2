@@ -70,3 +70,42 @@ export default {
   }),
 }
 </script>
+
+<style scoped>
+  .home {
+    padding: 92px 30px 30px;
+    text-align: center;
+  }
+
+  .home-title {
+    font-size: 37px;
+    letter-spacing: -1.5px;
+    margin-bottom: 45px;
+    position: relative;
+  }
+
+  .home-title::after {
+    background-color: var(--white);
+    content: '';
+    height: 2px;
+    margin-top: 16px;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    transform: translateX(50%);
+    width: 32px;
+  }
+
+  .home-description {
+    margin: 0 auto 47px;
+    max-width: 700px;
+  }
+
+  .home-blocks {
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1506px;
+    margin: 0 auto;
+  }
+</style>

@@ -108,4 +108,22 @@ export default {
     max-width: 1506px;
     margin: 0 auto;
   }
+
+  @media(max-width: 1280px) {
+    .home-blocks {
+      column-gap: 24px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media(max-width: 768px) {
+    .home-blocks {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media(max-width: 600px) {
+    .home-blocks {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 </style>

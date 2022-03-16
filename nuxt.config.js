@@ -1,6 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/limesharp-test-2/',
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

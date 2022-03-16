@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('~assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+    url('~assets/fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('~assets/fonts/GothamBold.woff2') format('woff2'),
+    url('~assets/fonts/GothamBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
